@@ -1,0 +1,19 @@
+## Para utilizar modúlos, utilizamos o import
+
+import math
+(math é uma biblioteca e com o import, importamos ela)
+
+ceil: arredondar para cima 
+floor: arredondamento para baixo
+trunc: eliminar da virgula para frente
+pow: potência
+sqrt: calcular raiz quadrada
+factorial: calculo de fatorial
+
+para pegar apenas um comando
+
+from math import sqrt
+
+(só foi exportado apenas aquela função, então, poderá usar penas ela)
+
+
