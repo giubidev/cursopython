@@ -1,4 +1,4 @@
-## Operações Aritméticas
+##Operações Aritméticas
 
 + Adição
 - Subtração
@@ -8,7 +8,7 @@
 // Divisão inteira
 % Módulo/Resto da divisão
 
-## Ordem de precedência
+##Ordem de precedência
 
 1° ()
 2° **
