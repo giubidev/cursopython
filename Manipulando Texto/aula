@@ -1,0 +1,52 @@
+Curso de Vídeo Python
+
+frase
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+C U R S O   E M   V  Í  D  E  O    P  Y  T  H  O  N
+
+frase[9] -- identifica dentro da cadeia de caractere a letra 9 (letra V)
+frase[9:13] -- identifica dentro da cadeia de caractere as letras de 9 até 13 (letras: Víde)
+frase[9:21] -- letras: Vídeo Python
+frase[9:21:2] -- começa no 9, para no 21, pulando de 2 em 2. (letras: V d o P t o)
+frase[:5] -- começa do inicio e vai até a letra 5
+frase[15:] -- vai do 15 até o final da frase
+frase[9::3] -- do caractere 9 até o final, de 3 em 3 (letras: V e P h)
+
+ANALISAR A STRING
+
+len(frase) -- qual o comprimento da frase
+frase.count('o') -- contar quantas vezes aparece a letra o
+frase.count('o', 0, 13) -- contar quantas vezes aparece a letra o do 0 até o caractere 13
+frase.find('deo') -- encontrar deo e vai dizer em que momento começa o deo
+frase.find('Android') -- se você coloca um valor no find que não existe, ele te exibe -1
+frase.replace('Python', 'Android') -- onde tiver python, irá substituir por android
+frase.upper() -- todas as letras vão ficar em maiusculas
+frase.lower() -- todas as letras em minicusculas
+frase.capitalize() -- a primeira letra da frase, fica em maiusculo, o restante fica minusculo
+frase.title() -- analisa quantas palavras tem, faz o capitalize palavra por palavra
+
+frase
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 
+      A p r e n d a    P  y  t  h  o   n
+
+frase.strip() - remover os espaços inuteis do inicio e do final da string
+frase.rstrip() - remove apenas os ultimos espaços (da direita)
+frase.lstrip() - remove apenas os primeiros espaço (da esquerda)
+
+FUNCIONALIDADE DE DIVISÃO
+frase.split() -- divisão da string onde tiver os espaços
+
+FUNCIONALIDADE DE DIVISÃO
+'-'.join(frase) -- juntar todos os elementos de frase, usando o separador -
+
+
+ 
+
+
+
+
+
+- Cada espaço é um índice
+- Inclui os espaço entre as palavras
+- O python identifica letras minuscúlas e maiúsculas 
+- 
